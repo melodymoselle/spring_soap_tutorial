@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="126c4b74-2b77-4e9e-8367-024813c27161" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/preferred-vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/com/codenotfound/types/helloworld/Greeting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/com/codenotfound/types/helloworld/ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/com/codenotfound/types/helloworld/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/com/codenotfound/types/helloworld/package-info.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring_soap_tutorial.iml" afterPath="$PROJECT_DIR$/spring_soap_tutorial.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl" afterPath="$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" afterPath="$PROJECT_DIR$/target/generated-sources/xjc/META-INF/sun-jaxb.episode" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +27,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello_world.wsdl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl">
+      <file leaf-file-name="helloworld.wsdl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/helloworld.wsdl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1071">
               <caret line="63" column="71" lean-forward="false" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
@@ -46,7 +37,36 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SpringWsApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/SpringWsApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebServiceConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/endpoint/WebServiceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,6 +82,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hello_world.wsdl" />
         <option value="$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl" />
+        <option value="$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/SpringWsApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/endpoint/WebServiceConfig.java" />
       </list>
     </option>
   </component>
@@ -108,20 +130,25 @@
               <item name="spring_soap_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_soap_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_soap_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_soap_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_soap_tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring_soap_tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_soap_tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_soap_tutorial" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="wsdl" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -293,11 +320,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/hello_world.wsdl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wsdl/helloworld.wsdl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="71" lean-forward="false" selection-start-line="63" selection-start-column="71" selection-end-line="63" selection-end-column="71" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/SpringWsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/melodymoselle/ws/endpoint/WebServiceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
