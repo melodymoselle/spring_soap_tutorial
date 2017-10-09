@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: com.melodymoselle.ws.SpringWsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.166 sec <<< FAILURE! - in com.melodymoselle.ws.SpringWsApplicationTests
+testSayHello(com.melodymoselle.ws.SpringWsApplicationTests)  Time elapsed: 2.566 sec  <<< ERROR!
+org.springframework.ws.client.WebServiceIOException: I/O error: Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1316)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1291)
+	at org.springframework.ws.transport.http.HttpUrlConnection.getRequestOutputStream(HttpUrlConnection.java:89)
+	at org.springframework.ws.transport.AbstractSenderConnection$RequestTransportOutputStream.createOutputStream(AbstractSenderConnection.java:87)
+	at org.springframework.ws.transport.TransportOutputStream.getOutputStream(TransportOutputStream.java:41)
+	at org.springframework.ws.transport.TransportOutputStream.write(TransportOutputStream.java:64)
+	at com.sun.xml.internal.messaging.saaj.soap.MessageImpl.writeTo(MessageImpl.java:1314)
+	at org.springframework.ws.soap.saaj.SaajSoapMessage.writeTo(SaajSoapMessage.java:275)
+	at org.springframework.ws.transport.AbstractWebServiceConnection.send(AbstractWebServiceConnection.java:46)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendRequest(WebServiceTemplate.java:658)
+	at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:606)
+	at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:555)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:390)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:383)
+	at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:373)
+	at com.melodymoselle.ws.client.HelloWorldClient.sayHello(HelloWorldClient.java:29)
+	at com.melodymoselle.ws.SpringWsApplicationTests.testSayHello(SpringWsApplicationTests.java:22)
+

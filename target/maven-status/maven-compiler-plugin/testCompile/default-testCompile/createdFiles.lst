@@ -1,0 +1,10 @@
+com\melodymoselle\types\helloworld\Person.class
+com\melodymoselle\ws\client\HelloWorldClient.class
+com\melodymoselle\ws\endpoint\WebServiceConfig.class
+com\melodymoselle\types\helloworld\ObjectFactory.class
+com\melodymoselle\types\helloworld\Greeting.class
+com\melodymoselle\ws\endpoint\HelloWorldEndpoint.class
+com\melodymoselle\ws\SpringWsApplicationTests.class
+com\melodymoselle\ws\client\ClientConfig.class
+com\melodymoselle\ws\SpringWsApplication.class
+com\melodymoselle\types\helloworld\package-info.class
